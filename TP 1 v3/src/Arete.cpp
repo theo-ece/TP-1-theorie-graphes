@@ -11,17 +11,17 @@ Arete::~Arete()
 }
 void Arete::set_sommet_1(std::string a)
 {
-    sommet_1.set_nom(a);
+    sommet_1=a;
 }
 void Arete::set_sommet_2(std::string a)
 {
-    sommet_2.set_nom(a);
+    sommet_2=a;
 }
-Sommet Arete::get_sommet_1()
+std::string Arete::get_sommet_1()
 {
     return sommet_1;
 }
-Sommet Arete::get_sommet_2()
+std::string Arete::get_sommet_2()
 {
     return sommet_2;
 }

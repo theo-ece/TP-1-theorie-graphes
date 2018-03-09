@@ -20,7 +20,6 @@ class Graphe
         std::string saisir();
         void recuperation(std::string a);
         void afficher_influence();
-        void traitement();
 
     protected:
 
