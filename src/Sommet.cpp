@@ -1,26 +1,28 @@
 #include "Sommet.h"
 
-Sommet::Sommet()
+///Classe Sommet permettant de modéliser le graphe
+
+Sommet::Sommet() //constructeur
 {
     //ctor
 }
 
-Sommet::Sommet(std::string a)
+Sommet::Sommet(std::string a) //constructeur
 {
     //ctor
     nom=a;
 }
 
-Sommet::~Sommet()
+Sommet::~Sommet()//destructeur
 {
     //dtor
 }
 
-void Sommet::set_nom(std::string a)
+void Sommet::SetNom(std::string a) //setter
 {
     nom = a;
 }
-std::string Sommet::get_nom()
+std::string Sommet::GetNom() //getter
 {
     return nom;
 }

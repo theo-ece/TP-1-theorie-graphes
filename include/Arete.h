@@ -4,23 +4,25 @@
 #include "Graphe.h"
 #include "Sommet.h"
 
+///Classe Arete qui compose le graphe
+
 class Arete
 {
-    public:
-        Arete();
-        virtual ~Arete();
-        void set_sommet_1(std::string a);
-        void set_sommet_2(std::string a);
-        std::string get_sommet_1();
-        std::string get_sommet_2();
+public:
+    Arete();
+    virtual ~Arete();
+    void SetSommet1(std::string a);     // permet de rentrer le nom du sommet 1 de l'arete  -   on entre un string
+    void SetSommet2(std::string a);     // permet de rentrer le nom du sommet 2 de l'arete  -   on entre un string
+    std::string GetSommet1();           // permet d'obtenir le nom du sommet 2 de l'arete   -   on obtient un string
+    std::string GetSommet2();           // permet d'obtenir le nom du sommet 2 de l'arete   -   on obtient un string
 
 
 
-    protected:
+protected:
 
-    private:
-        std::string sommet_1;
-        std::string sommet_2;
+private:
+    std::string sommet1;
+    std::string sommet2;
 };
 
 #endif // ARETE_H

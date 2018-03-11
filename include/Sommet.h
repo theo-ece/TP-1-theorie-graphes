@@ -2,19 +2,20 @@
 #define SOMMET_H
 #include "Graphe.h"
 
+///Classe Sommet permettant de modéliser le graphe d'influence
 class Sommet
 {
-    public:
-        Sommet();
-        Sommet(std::string a);
-        virtual ~Sommet();
-        void set_nom(std::string a);
-        std::string get_nom();
+public:
+    Sommet();
+    Sommet(std::string a);
+    virtual ~Sommet();
+    void SetNom(std::string a);     //Permet d'etablir le nom du sommet - string en entree
+    std::string GetNom();           //Permet d'obtenir le nom du sommet - retourne un string
 
-    protected:
+protected:
 
-        std::string nom;
-    private:
+    std::string nom;
+private:
 };
 
 #endif // SOMMET_H

@@ -34,8 +34,6 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
-		<Unit filename="graphe/graphe.hpp" />
-		<Unit filename="graphe/lbc.hpp" />
 		<Unit filename="header.h" />
 		<Unit filename="include/Arete.h" />
 		<Unit filename="include/Graphe.h" />

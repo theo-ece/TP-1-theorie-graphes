@@ -8,8 +8,6 @@
 #include <vector>
 #include <fstream>
 #include <sstream>
-
-
 #include <iostream>
 
 #endif // HEADER_H_INCLUDED

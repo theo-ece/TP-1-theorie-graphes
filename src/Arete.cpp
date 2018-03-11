@@ -1,27 +1,28 @@
 #include "Arete.h"
+///Classe Arete permettant de modéliser le graphe
 
-Arete::Arete()
+Arete::Arete() //constructeur
 {
     //ctor
 }
 
-Arete::~Arete()
+Arete::~Arete() //destructeur
 {
     //dtor
 }
-void Arete::set_sommet_1(std::string a)
+void Arete::SetSommet1(std::string a) //setter
 {
-    sommet_1=a;
+    sommet1=a;
 }
-void Arete::set_sommet_2(std::string a)
+void Arete::SetSommet2(std::string a) //setter
 {
-    sommet_2=a;
+    sommet2=a;
 }
-std::string Arete::get_sommet_1()
+std::string Arete::GetSommet1() //getter
 {
-    return sommet_1;
+    return sommet1;
 }
-std::string Arete::get_sommet_2()
+std::string Arete::GetSommet2() //getter
 {
-    return sommet_2;
+    return sommet2;
 }
